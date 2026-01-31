@@ -17,6 +17,7 @@
         function handleYesClick(context) {
             const message = context === 'noFlow' ? "i knew u'd come around :3" : "Yay!!";
             document.body.innerHTML = "<h1>" + message + "</h1>";
+            document.body.innerHTML += "<h2>i love you</h2>";
             const img = document.createElement("img");
             img.src = context === 'noFlow' ? "imgmessage/12.png" : "imgmessage/2.png";
             img.alt = "yay!";
